@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD410006-ABBF-423D-B2BB-B88018DC327C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Teknik_Takip</RootNamespace>
+    <AssemblyName>Teknik_Takip</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Teknik_Takip.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.1, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.1\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="zxing, Version=0.16.5.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.5\lib\net461\zxing.dll</HintPath>
+    </Reference>
+    <Reference Include="zxing.presentation, Version=0.16.5.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZXing.Net.0.16.5\lib\net461\zxing.presentation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="et.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="et.Designer.cs">
+      <DependentUpon>et.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris.Designer.cs">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="jcz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jcz.Designer.cs">
+      <DependentUpon>jcz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bakim_Ekrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bakim_Ekrani.Designer.cs">
+      <DependentUpon>Bakim_Ekrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kart_zimmet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kart_zimmet.Designer.cs">
+      <DependentUpon>kart_zimmet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kt.Designer.cs">
+      <DependentUpon>kt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kte.Designer.cs">
+      <DependentUpon>kte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kulaklikta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kulaklikta.Designer.cs">
+      <DependentUpon>kulaklikta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mg.Designer.cs">
+      <DependentUpon>mg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mkt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mkt.Designer.cs">
+      <DependentUpon>mkt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ms.Designer.cs">
+      <DependentUpon>ms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mss.Designer.cs">
+      <DependentUpon>mss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ok.Designer.cs">
+      <DependentUpon>ok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pk.Designer.cs">
+      <DependentUpon>pk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Secim_Ekrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Secim_Ekrani.Designer.cs">
+      <DependentUpon>Secim_Ekrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nt.Designer.cs">
+      <DependentUpon>nt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="su.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="su.Designer.cs">
+      <DependentUpon>su.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teknik_TakipDbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Teknik_TakipDbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tl.Designer.cs">
+      <DependentUpon>tl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zimmetteki_kartal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zimmetteki_kartal.Designer.cs">
+      <DependentUpon>zimmetteki_kartal.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="et.resx">
+      <DependentUpon>et.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giris.resx">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jcz.resx">
+      <DependentUpon>jcz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bakim_Ekrani.resx">
+      <DependentUpon>Bakim_Ekrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kart_zimmet.resx">
+      <DependentUpon>kart_zimmet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kt.resx">
+      <DependentUpon>kt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kte.resx">
+      <DependentUpon>kte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kulaklikta.resx">
+      <DependentUpon>kulaklikta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mg.resx">
+      <DependentUpon>mg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mkt.resx">
+      <DependentUpon>mkt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ms.resx">
+      <DependentUpon>ms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mss.resx">
+      <DependentUpon>mss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ok.resx">
+      <DependentUpon>ok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pk.resx">
+      <DependentUpon>pk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Secim_Ekrani.resx">
+      <DependentUpon>Secim_Ekrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nt.resx">
+      <DependentUpon>nt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="su.resx">
+      <DependentUpon>su.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tl.resx">
+      <DependentUpon>tl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zimmetteki_kartal.resx">
+      <DependentUpon>zimmetteki_kartal.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Teknik_TakipDbDataSet.xsc">
+      <DependentUpon>Teknik_TakipDbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Teknik_TakipDbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Teknik_TakipDbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Teknik_TakipDbDataSet.xss">
+      <DependentUpon>Teknik_TakipDbDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail.png" />
+    <None Include="Resources\mail1.png" />
+    <None Include="Resources\mail2.png" />
+    <None Include="Resources\mail3.png" />
+    <None Include="Resources\2.jpg" />
+    <None Include="Resources\2-min.jpg" />
+    <None Include="Resources\21.jpg" />
+    <Content Include="TextFile1.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

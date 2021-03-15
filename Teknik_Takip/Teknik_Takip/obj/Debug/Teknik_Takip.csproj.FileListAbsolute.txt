@@ -1,0 +1,283 @@
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.exe.config
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.exe
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.pdb
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Properties.Resources.resources
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.GenerateResource.cache
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.CoreCompileInputs.cache
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.exe
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.pdb
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Secim_Ekrani.resources
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mkt.resources
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.jcz.resources
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.nt.resources
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.et.resources
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.kte.resources
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mss.resources
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.ms.resources
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mg.resources
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.tl.resources
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.pk.resources
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.su.resources
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\bin\Debug\itextsharp.dll
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\bin\Debug\itextsharp.xml
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.CopyComplete
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Giris.resources
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.ok.resources
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.dll
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.dll
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.dll
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.dll
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.xml
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.xml
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.pdb
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.xml
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.pdb
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.xml
+C:\Users\Yusuf Karabay\Desktop\Teknik_Program\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csprojAssemblyReference.cache
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.exe.config
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.exe
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.pdb
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.dll
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.DirectShow.dll
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.dll
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\itextsharp.dll
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.dll
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.dll
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.xml
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.xml
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.DirectShow.xml
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\itextsharp.xml
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.pdb
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.xml
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.pdb
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.xml
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csprojAssemblyReference.cache
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.et.resources
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Giris.resources
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.jcz.resources
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.kte.resources
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mg.resources
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mkt.resources
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.ms.resources
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mss.resources
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.ok.resources
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.pk.resources
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Secim_Ekrani.resources
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.nt.resources
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Properties.Resources.resources
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.su.resources
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.tl.resources
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.GenerateResource.cache
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.CoreCompileInputs.cache
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.CopyComplete
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.exe
+F:\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.pdb
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.exe.config
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.exe
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.pdb
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.dll
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.dll
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\itextsharp.dll
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.dll
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.dll
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.xml
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.xml
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\itextsharp.xml
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.pdb
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.xml
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.pdb
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.xml
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csprojAssemblyReference.cache
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.et.resources
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Giris.resources
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.jcz.resources
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.kte.resources
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mg.resources
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mkt.resources
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.ms.resources
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mss.resources
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.ok.resources
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.pk.resources
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Secim_Ekrani.resources
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.nt.resources
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Properties.Resources.resources
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.su.resources
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.tl.resources
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.GenerateResource.cache
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.CoreCompileInputs.cache
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.CopyComplete
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.exe
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.pdb
+C:\Users\Yusuf Karabay\Desktop\güncel versiyon\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Bakim_Ekrani.resources
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.exe.config
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.exe
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.pdb
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.dll
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.dll
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\bin\Debug\itextsharp.dll
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.dll
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.dll
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.xml
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.xml
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\bin\Debug\itextsharp.xml
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.pdb
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.xml
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.pdb
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.xml
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csprojAssemblyReference.cache
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.et.resources
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Giris.resources
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.jcz.resources
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Bakim_Ekrani.resources
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.kte.resources
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mg.resources
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mkt.resources
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.ms.resources
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mss.resources
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.ok.resources
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.pk.resources
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Secim_Ekrani.resources
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.nt.resources
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Properties.Resources.resources
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.su.resources
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.tl.resources
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.GenerateResource.cache
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.CoreCompileInputs.cache
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.CopyComplete
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.exe
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.pdb
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.kt.resources
+C:\Users\YusufKarabay\Desktop\son sürüm 01.10.2020\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.kulaklikta.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.exe.config
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.exe
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.pdb
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.dll
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.dll
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\bin\Debug\itextsharp.dll
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.dll
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.dll
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.xml
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.xml
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\bin\Debug\itextsharp.xml
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.pdb
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.xml
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.pdb
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.xml
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csprojAssemblyReference.cache
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.et.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Giris.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.jcz.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Bakim_Ekrani.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.kt.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.kte.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.kulaklikta.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mg.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mkt.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.ms.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mss.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.ok.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.pk.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Secim_Ekrani.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.nt.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Properties.Resources.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.su.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.tl.resources
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.GenerateResource.cache
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.CoreCompileInputs.cache
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.CopyComplete
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.exe
+C:\Users\YusufKarabay\Desktop\kulaklık güncellemesi 07.01.2021\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.pdb
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.exe.config
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.exe
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.pdb
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.dll
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.dll
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\itextsharp.dll
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.dll
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.dll
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.xml
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.xml
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\itextsharp.xml
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.pdb
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.xml
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.pdb
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.xml
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csprojAssemblyReference.cache
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.et.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Giris.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.jcz.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Bakim_Ekrani.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.kart_zimmet.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.kt.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.kte.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.kulaklikta.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mg.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mkt.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.ms.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mss.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.ok.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.pk.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Secim_Ekrani.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.nt.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Properties.Resources.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.su.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.tl.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.zimmetteki_kartal.resources
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.GenerateResource.cache
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.CoreCompileInputs.cache
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.CopyComplete
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.exe
+C:\Users\YusufKarabay\Desktop\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.pdb
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.exe.config
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.exe
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\Teknik_Takip.pdb
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.dll
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.dll
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\itextsharp.dll
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.dll
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.dll
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.xml
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.xml
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\itextsharp.xml
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.pdb
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.xml
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.pdb
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\bin\Debug\zxing.presentation.xml
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csprojAssemblyReference.cache
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.et.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Giris.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.jcz.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Bakim_Ekrani.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.kart_zimmet.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.kt.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.kte.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.kulaklikta.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mg.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mkt.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.ms.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.mss.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.ok.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.pk.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Secim_Ekrani.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.nt.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.Properties.Resources.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.su.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.tl.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.zimmetteki_kartal.resources
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.GenerateResource.cache
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.CoreCompileInputs.cache
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.csproj.CopyComplete
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.exe
+C:\Users\yusuf\OneDrive\Masaüstü\Masaüstü\v3.0\Teknik_Takip\Teknik_Takip\obj\Debug\Teknik_Takip.pdb

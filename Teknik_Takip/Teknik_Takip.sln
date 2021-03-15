@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teknik_Takip", "Teknik_Takip\Teknik_Takip.csproj", "{BD410006-ABBF-423D-B2BB-B88018DC327C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "112 Teknik Takip", "..\..\112 Teknik Takip V2.0\112 Teknik Takip\112 Teknik Takip.vdproj", "{46952EA4-96A3-4263-BCB2-7A6A6C635CD0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "112 Teknik Takip v3.0", "112 Teknik Takip v3.0\112 Teknik Takip v3.0.vdproj", "{5AC39FB4-7E78-4785-9E59-98C99EEF665D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD410006-ABBF-423D-B2BB-B88018DC327C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD410006-ABBF-423D-B2BB-B88018DC327C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD410006-ABBF-423D-B2BB-B88018DC327C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD410006-ABBF-423D-B2BB-B88018DC327C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46952EA4-96A3-4263-BCB2-7A6A6C635CD0}.Debug|Any CPU.ActiveCfg = Debug
+		{46952EA4-96A3-4263-BCB2-7A6A6C635CD0}.Release|Any CPU.ActiveCfg = Release
+		{5AC39FB4-7E78-4785-9E59-98C99EEF665D}.Debug|Any CPU.ActiveCfg = Debug
+		{5AC39FB4-7E78-4785-9E59-98C99EEF665D}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EBD8EF0-9759-4081-97F3-C1F660CD356C}
+	EndGlobalSection
+EndGlobal

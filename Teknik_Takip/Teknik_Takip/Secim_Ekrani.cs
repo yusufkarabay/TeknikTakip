@@ -22,6 +22,8 @@ namespace Teknik_Takip
         SqlConnection baglanti = new SqlConnection(@"Server=192.168.1.254;Database=Teknik_TakipDb;User Id=yusufkarabay;Password=Kobe+kobe1;");
         private void button1_Click(object sender, EventArgs e)
         {
+            SidePanel.Height = button1.Height;
+            
             nt myForm = new nt();
             this.Hide();
             myForm.ShowDialog();

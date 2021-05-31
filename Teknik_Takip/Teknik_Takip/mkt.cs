@@ -23,13 +23,13 @@ namespace Teknik_Takip
         private void timer1_Tick(object sender, EventArgs e)
         {
             DateTime datetime = DateTime.Now;
-            this.label1.Text = datetime.ToShortDateString();
+            //this.label1.Text = datetime.ToShortDateString();
             this.label7.Text = datetime.ToShortDateString();
         }
 
         private void mkt_Load(object sender, EventArgs e)
         {
-            label2.Text = Program.Ad_Soyad;
+            //label2.Text = Program.Ad_Soyad;
             label5.Text = Program.Ad_Soyad;
             timer1.Start();
         }

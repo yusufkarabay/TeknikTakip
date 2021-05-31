@@ -30,8 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(et));
-            this.Tarih_Label = new System.Windows.Forms.Label();
-            this.Personel_Label = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -40,33 +38,11 @@
             this.Ekle_Buton = new System.Windows.Forms.Button();
             this.Stok_Sorgulama_Ekrani_Gidis_Buton = new System.Windows.Forms.Button();
             this.Malzeme_Silme_Ekrani_Gidis = new System.Windows.Forms.Button();
-            this.AnaMenu_Buton = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // Tarih_Label
-            // 
-            this.Tarih_Label.AutoSize = true;
-            this.Tarih_Label.BackColor = System.Drawing.Color.Transparent;
-            this.Tarih_Label.Location = new System.Drawing.Point(470, 13);
-            this.Tarih_Label.Name = "Tarih_Label";
-            this.Tarih_Label.Size = new System.Drawing.Size(35, 13);
-            this.Tarih_Label.TabIndex = 0;
-            this.Tarih_Label.Text = "label1";
-            this.Tarih_Label.Click += new System.EventHandler(this.Tarih_Label_Click);
-            // 
-            // Personel_Label
-            // 
-            this.Personel_Label.AutoSize = true;
-            this.Personel_Label.BackColor = System.Drawing.Color.Transparent;
-            this.Personel_Label.Location = new System.Drawing.Point(25, 13);
-            this.Personel_Label.Name = "Personel_Label";
-            this.Personel_Label.Size = new System.Drawing.Size(35, 13);
-            this.Personel_Label.TabIndex = 1;
-            this.Personel_Label.Text = "label2";
             // 
             // label3
             // 
@@ -148,18 +124,6 @@
             this.Malzeme_Silme_Ekrani_Gidis.UseVisualStyleBackColor = false;
             this.Malzeme_Silme_Ekrani_Gidis.Click += new System.EventHandler(this.Malzeme_Silme_Ekrani_Gidis_Click);
             // 
-            // AnaMenu_Buton
-            // 
-            this.AnaMenu_Buton.Location = new System.Drawing.Point(13, 351);
-            this.AnaMenu_Buton.Name = "AnaMenu_Buton";
-            this.AnaMenu_Buton.Size = new System.Drawing.Size(75, 23);
-            this.AnaMenu_Buton.TabIndex = 9;
-            this.AnaMenu_Buton.Text = "Ana Menü";
-            this.AnaMenu_Buton.UseVisualStyleBackColor = true;
-            this.AnaMenu_Buton.Click += new System.EventHandler(this.AnaMenu_Buton_Click);
-            this.AnaMenu_Buton.KeyDown += new System.Windows.Forms.KeyEventHandler(this.AnaMenu_Buton_KeyDown);
-            this.AnaMenu_Buton.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.AnaMenu_Buton_KeyPress);
-            // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
@@ -200,12 +164,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Teknik_Takip.Properties.Resources._21;
-            this.ClientSize = new System.Drawing.Size(600, 393);
+            this.ClientSize = new System.Drawing.Size(1042, 697);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.AnaMenu_Buton);
             this.Controls.Add(this.Malzeme_Silme_Ekrani_Gidis);
             this.Controls.Add(this.Stok_Sorgulama_Ekrani_Gidis_Buton);
             this.Controls.Add(this.Ekle_Buton);
@@ -214,8 +176,6 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.Personel_Label);
-            this.Controls.Add(this.Tarih_Label);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.MaximizeBox = false;
@@ -231,9 +191,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label Tarih_Label;
-        private System.Windows.Forms.Label Personel_Label;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
@@ -242,7 +199,6 @@
         private System.Windows.Forms.Button Ekle_Buton;
         private System.Windows.Forms.Button Stok_Sorgulama_Ekrani_Gidis_Buton;
         private System.Windows.Forms.Button Malzeme_Silme_Ekrani_Gidis;
-        private System.Windows.Forms.Button AnaMenu_Buton;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;

@@ -28,12 +28,12 @@ namespace Teknik_Takip
         private void timer1_Tick(object sender, EventArgs e)
         {
             DateTime datetime = DateTime.Now;
-            this.Tarih_Label.Text = datetime.ToShortDateString();
+           // this.Tarih_Label.Text = datetime.ToShortDateString();
         }
 
         private void et_Load(object sender, EventArgs e)
         {
-            Personel_Label.Text = Program.Ad_Soyad;
+            //Personel_Label.Text = Program.Ad_Soyad;
             timer1.Start();
         }
 
@@ -115,8 +115,7 @@ namespace Teknik_Takip
         private void Stok_Sorgulama_Ekrani_Gidis_Buton_Click(object sender, EventArgs e)
         {
             mss myForm = new mss();
-            this.Hide();
-            myForm.ShowDialog();
+            FormGetir(myForm);
             this.Close();
         }
 

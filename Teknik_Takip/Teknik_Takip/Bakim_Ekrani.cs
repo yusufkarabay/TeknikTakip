@@ -41,7 +41,7 @@ namespace Teknik_Takip
 
             Listele();
             Listele2();
-            label1.Text = Program.Ad_Soyad;
+           
             timer1.Start();
 
           /*  baglanti.Open();
@@ -105,7 +105,7 @@ namespace Teknik_Takip
         {
 
             DateTime datetime = DateTime.Now;
-            this.label2.Text = datetime.ToShortDateString();
+           // this.label2.Text = datetime.ToShortDateString();
         }
 
         private void button3_Click(object sender, EventArgs e)

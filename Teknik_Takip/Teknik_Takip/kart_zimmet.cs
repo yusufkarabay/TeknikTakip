@@ -124,7 +124,7 @@ namespace Teknik_Takip
         private void timer1_Tick(object sender, EventArgs e)
         {
             DateTime datetime = DateTime.Now;
-            this.label3.Text = datetime.ToShortDateString();
+           // this.label3.Text = datetime.ToShortDateString();
             this.label7.Text = datetime.ToShortDateString();
         }
 
@@ -134,7 +134,7 @@ namespace Teknik_Takip
            
             label5.Text = Program.Ad_Soyad;
             timer1.Start();
-            label4.Text = Program.Ad_Soyad;
+            //label4.Text = Program.Ad_Soyad;
             timer1.Start();
         }
     }

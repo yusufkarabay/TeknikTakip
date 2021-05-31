@@ -23,14 +23,14 @@ namespace Teknik_Takip
 
         private void kt_Load(object sender, EventArgs e)
         {
-            label4.Text = Program.Ad_Soyad;
+           // label4.Text = Program.Ad_Soyad;
             timer1.Start();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             DateTime datetime = DateTime.Now;
-            this.label3.Text = datetime.ToShortDateString();
+           // this.label3.Text = datetime.ToShortDateString();
         }
 
         private void button3_Click(object sender, EventArgs e)

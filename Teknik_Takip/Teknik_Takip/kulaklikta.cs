@@ -43,7 +43,7 @@ namespace Teknik_Takip
         private void timer1_Tick(object sender, EventArgs e)
         {
             DateTime datetime = DateTime.Now;
-            this.label2.Text = datetime.ToShortDateString();
+            //this.label2.Text = datetime.ToShortDateString();
         }
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
@@ -98,7 +98,7 @@ namespace Teknik_Takip
         private void kulaklikta_Load(object sender, EventArgs e)
         {
 
-            label1.Text = Program.Ad_Soyad;
+           // label1.Text = Program.Ad_Soyad;
             timer1.Start();
         }
 

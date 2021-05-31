@@ -21,7 +21,7 @@ namespace Teknik_Takip
         private void jcz_Load(object sender, EventArgs e)
         {
             toplam_zamani_oku();
-            label2.Text = Program.Ad_Soyad;
+            //label2.Text = Program.Ad_Soyad;
             timer1.Start();
         }
         void toplam_zamani_oku()
@@ -74,7 +74,7 @@ namespace Teknik_Takip
         private void timer1_Tick(object sender, EventArgs e)
         {
             DateTime datetime = DateTime.Now;
-            this.Tarih_Label.Text = datetime.ToShortDateString();
+           //this.Tarih_Label.Text = datetime.ToShortDateString();
         }
 
         private void button2_Click(object sender, EventArgs e)

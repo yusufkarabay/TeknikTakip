@@ -115,7 +115,7 @@ namespace Teknik_Takip
         private void Stok_Sorgulama_Ekrani_Gidis_Buton_Click(object sender, EventArgs e)
         {
             mss myForm = new mss();
-            FormGetir(myForm);
+            //FormGetir(myForm);
             this.Close();
         }
 

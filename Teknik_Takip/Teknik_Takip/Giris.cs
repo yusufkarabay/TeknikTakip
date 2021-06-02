@@ -164,5 +164,39 @@ namespace Teknik_Takip
         {
            
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Kullanici_Adi_Textbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Kullanici_Adi_Textbox_Click(object sender, EventArgs e)
+        {
+            Kullanici_Adi_Textbox.Clear();
+            pictureBox2.BackgroundImage = Properties.Resources.userblue;
+            panel1.ForeColor = Color.FromArgb(39,162,214);
+            Kullanici_Adi_Textbox.ForeColor= Color.FromArgb(39, 162, 214);
+
+            pictureBox3.BackgroundImage = Properties.Resources.lock_16;
+            panel2.ForeColor = Color.White;
+            Kullanici_Adi_Textbox.ForeColor = Color.White; 
+        }
+
+        private void Parola_Textbox_Click(object sender, EventArgs e)
+        {
+            Parola_Textbox.Clear();
+            pictureBox2.BackgroundImage = Properties.Resources.user_16;
+            panel1.ForeColor = Color.White;
+            Kullanici_Adi_Textbox.ForeColor = Color.White;
+
+            pictureBox3.BackgroundImage = Properties.Resources.lockblue;
+            panel2.ForeColor = Color.FromArgb(39, 162, 214);
+            Kullanici_Adi_Textbox.ForeColor = Color.FromArgb(39, 162, 214);
+        }
     }
 }

@@ -288,6 +288,12 @@
     <None Include="Resources\2.jpg" />
     <None Include="Resources\2-min.jpg" />
     <None Include="Resources\21.jpg" />
+    <None Include="Resources\userblue.png" />
+    <None Include="Resources\lockblue.png" />
+    <Content Include="Resources\lock-16.png" />
+    <None Include="Resources\lock-161.png" />
+    <Content Include="Resources\user-16.png" />
+    <None Include="Resources\user-161.png" />
     <Content Include="TextFile1.txt" />
   </ItemGroup>
   <ItemGroup />

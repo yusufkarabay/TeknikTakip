@@ -42,9 +42,9 @@
             this.kart_zimmet_buton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.SidePanel = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tableAdapterManager1 = new Teknik_Takip.Teknik_TakipDbDataSetTableAdapters.TableAdapterManager();
-            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -124,9 +124,10 @@
             // 
             this.Tarih_Label.AutoSize = true;
             this.Tarih_Label.BackColor = System.Drawing.Color.Transparent;
+            this.Tarih_Label.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Tarih_Label.Location = new System.Drawing.Point(12, 66);
             this.Tarih_Label.Name = "Tarih_Label";
-            this.Tarih_Label.Size = new System.Drawing.Size(35, 13);
+            this.Tarih_Label.Size = new System.Drawing.Size(49, 16);
             this.Tarih_Label.TabIndex = 4;
             this.Tarih_Label.Text = "label1";
             // 
@@ -134,9 +135,10 @@
             // 
             this.Personel_Label.AutoSize = true;
             this.Personel_Label.BackColor = System.Drawing.Color.Transparent;
+            this.Personel_Label.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Personel_Label.Location = new System.Drawing.Point(12, 9);
             this.Personel_Label.Name = "Personel_Label";
-            this.Personel_Label.Size = new System.Drawing.Size(35, 13);
+            this.Personel_Label.Size = new System.Drawing.Size(49, 16);
             this.Personel_Label.TabIndex = 5;
             this.Personel_Label.Text = "label2";
             this.Personel_Label.Click += new System.EventHandler(this.Personel_Label_Click);
@@ -228,6 +230,16 @@
             this.SidePanel.Size = new System.Drawing.Size(10, 36);
             this.SidePanel.TabIndex = 10;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(40, 609);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 11;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // panel2
             // 
             this.panel2.Location = new System.Drawing.Point(186, 0);
@@ -245,16 +257,6 @@
             this.tableAdapterManager1.Nobet_TeslimTableAdapter = null;
             this.tableAdapterManager1.personelTableAdapter = null;
             this.tableAdapterManager1.UpdateOrder = Teknik_Takip.Teknik_TakipDbDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(40, 609);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 11;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Secim_Ekrani
             // 

@@ -146,10 +146,7 @@ namespace Teknik_Takip
 
         private void button2_Click(object sender, EventArgs e)
         {
-            su myForm = new su();
-            this.Hide();
-            myForm.ShowDialog();
-            this.Close();
+           
         }
 
         private void Kullanici_Adi_Textbox_KeyDown(object sender, KeyEventArgs e)
@@ -167,7 +164,7 @@ namespace Teknik_Takip
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Close();
+            
         }
 
         private void Kullanici_Adi_Textbox_TextChanged(object sender, EventArgs e)
@@ -178,25 +175,38 @@ namespace Teknik_Takip
         private void Kullanici_Adi_Textbox_Click(object sender, EventArgs e)
         {
             Kullanici_Adi_Textbox.Clear();
-            pictureBox2.BackgroundImage = Properties.Resources.userblue;
-            panel1.ForeColor = Color.FromArgb(39,162,214);
+            pictureBox2.Image = Properties.Resources.userblue;
+            panel1.BackColor = Color.FromArgb(39,162,214);
             Kullanici_Adi_Textbox.ForeColor= Color.FromArgb(39, 162, 214);
 
-            pictureBox3.BackgroundImage = Properties.Resources.lock_16;
-            panel2.ForeColor = Color.White;
-            Kullanici_Adi_Textbox.ForeColor = Color.White; 
+            pictureBox3.Image = Properties.Resources.lock_16;
+            panel2.BackColor = Color.White;
+            Parola_Textbox.ForeColor = Color.White;
         }
 
         private void Parola_Textbox_Click(object sender, EventArgs e)
         {
             Parola_Textbox.Clear();
-            pictureBox2.BackgroundImage = Properties.Resources.user_16;
-            panel1.ForeColor = Color.White;
+            pictureBox2.Image = Properties.Resources.user_16;            
+            panel1.BackColor =Color.White;
             Kullanici_Adi_Textbox.ForeColor = Color.White;
 
-            pictureBox3.BackgroundImage = Properties.Resources.lockblue;
-            panel2.ForeColor = Color.FromArgb(39, 162, 214);
-            Kullanici_Adi_Textbox.ForeColor = Color.FromArgb(39, 162, 214);
+            pictureBox3.Image = Properties.Resources.lockblue;
+            panel2.BackColor = Color.FromArgb(39, 162, 214);
+            Parola_Textbox.ForeColor = Color.FromArgb(39, 162, 214);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            su myForm = new su();
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
         }
     }
 }

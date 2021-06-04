@@ -38,14 +38,14 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.nobet_TeslimTableAdapter1 = new Teknik_Takip.Teknik_TakipDbDataSetTableAdapters.Nobet_TeslimTableAdapter();
-            this.button3 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -103,7 +103,7 @@
             this.Parola_Textbox.Size = new System.Drawing.Size(144, 14);
             this.Parola_Textbox.TabIndex = 2;
             this.Parola_Textbox.TabStop = false;
-            this.Parola_Textbox.Text = "parola";
+            this.Parola_Textbox.Text = "Parola";
             this.Parola_Textbox.Click += new System.EventHandler(this.Parola_Textbox_Click);
             this.Parola_Textbox.TextChanged += new System.EventHandler(this.Parola_Textbox_TextChanged);
             this.Parola_Textbox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Kullanici_Adi_Textbox_KeyDown);
@@ -153,29 +153,9 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(25, 486);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(95, 23);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Şifremi Unuttum";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // nobet_TeslimTableAdapter1
             // 
             this.nobet_TeslimTableAdapter1.ClearBeforeFill = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(12, 9);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 57;
-            this.button3.Text = "kapat";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // panel1
             // 
@@ -222,19 +202,46 @@
             this.pictureBox1.TabIndex = 56;
             this.pictureBox1.TabStop = false;
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button4.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.button4.Location = new System.Drawing.Point(1, 2);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(22, 23);
+            this.button4.TabIndex = 61;
+            this.button4.Text = "X";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.linkLabel1.Location = new System.Drawing.Point(225, 487);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(101, 17);
+            this.linkLabel1.TabIndex = 62;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Şifremi Unuttum";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // Giris
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.ClientSize = new System.Drawing.Size(400, 552);
+            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.Tarih_Label);
@@ -267,14 +274,14 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button Giris_Buton;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Teknik_TakipDbDataSetTableAdapters.Nobet_TeslimTableAdapter nobet_TeslimTableAdapter1;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 

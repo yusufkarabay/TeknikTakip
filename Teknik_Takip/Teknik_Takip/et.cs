@@ -22,8 +22,8 @@ namespace Teknik_Takip
         SqlCommand komut;
         SqlDataAdapter da;
         SqlConnection baglanti = new SqlConnection(@"Server=192.168.1.254;Database=Teknik_TakipDb;User Id=yusufkarabay;Password=Kobe+kobe1;");
-
-       
+     
+        
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -31,6 +31,7 @@ namespace Teknik_Takip
            // this.Tarih_Label.Text = datetime.ToShortDateString();
         }
 
+      
         private void et_Load(object sender, EventArgs e)
         {
             //Personel_Label.Text = Program.Ad_Soyad;
@@ -112,11 +113,10 @@ namespace Teknik_Takip
             this.Close();
         }
 
+        mss fr1;
         private void Stok_Sorgulama_Ekrani_Gidis_Buton_Click(object sender, EventArgs e)
         {
-            mss myForm = new mss();
-            //FormGetir(myForm);
-            this.Close();
+           
         }
 
         private void button2_Click(object sender, EventArgs e)

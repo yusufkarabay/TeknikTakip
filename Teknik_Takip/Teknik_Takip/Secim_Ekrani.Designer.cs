@@ -41,11 +41,21 @@
             this.kulaklik_teslim_buton = new System.Windows.Forms.Button();
             this.kart_zimmet_buton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.SidePanel = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tableAdapterManager1 = new Teknik_Takip.Teknik_TakipDbDataSetTableAdapters.TableAdapterManager();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.Malzeme_Silme_Ekrani_Gidis = new System.Windows.Forms.Button();
+            this.Stok_Sorgulama_Ekrani_Gidis_Buton = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // Nobet_Teslim_Buton
@@ -125,7 +135,7 @@
             this.Tarih_Label.AutoSize = true;
             this.Tarih_Label.BackColor = System.Drawing.Color.Transparent;
             this.Tarih_Label.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Tarih_Label.Location = new System.Drawing.Point(12, 66);
+            this.Tarih_Label.Location = new System.Drawing.Point(12, 95);
             this.Tarih_Label.Name = "Tarih_Label";
             this.Tarih_Label.Size = new System.Drawing.Size(49, 16);
             this.Tarih_Label.TabIndex = 4;
@@ -135,10 +145,11 @@
             // 
             this.Personel_Label.AutoSize = true;
             this.Personel_Label.BackColor = System.Drawing.Color.Transparent;
-            this.Personel_Label.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Personel_Label.Location = new System.Drawing.Point(12, 9);
+            this.Personel_Label.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Personel_Label.ForeColor = System.Drawing.Color.White;
+            this.Personel_Label.Location = new System.Drawing.Point(12, 58);
             this.Personel_Label.Name = "Personel_Label";
-            this.Personel_Label.Size = new System.Drawing.Size(49, 16);
+            this.Personel_Label.Size = new System.Drawing.Size(58, 19);
             this.Personel_Label.TabIndex = 5;
             this.Personel_Label.Text = "label2";
             this.Personel_Label.Click += new System.EventHandler(this.Personel_Label_Click);
@@ -204,8 +215,9 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.SidePanel);
-            this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.kart_zimmet_buton);
             this.panel1.Controls.Add(this.Personel_Label);
             this.panel1.Controls.Add(this.Tarih_Label);
@@ -218,33 +230,53 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(194, 736);
+            this.panel1.Size = new System.Drawing.Size(194, 768);
             this.panel1.TabIndex = 9;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Image = global::Teknik_Takip.Properties.Resources.minimize__2_;
+            this.button3.Location = new System.Drawing.Point(30, 0);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(21, 24);
+            this.button3.TabIndex = 67;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_2);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Image = global::Teknik_Takip.Properties.Resources.close_button;
+            this.button5.Location = new System.Drawing.Point(3, 0);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(23, 24);
+            this.button5.TabIndex = 66;
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // SidePanel
             // 
-            this.SidePanel.BackColor = System.Drawing.Color.Firebrick;
+            this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(162)))), ((int)(((byte)(214)))));
             this.SidePanel.Location = new System.Drawing.Point(7, 153);
             this.SidePanel.Name = "SidePanel";
             this.SidePanel.Size = new System.Drawing.Size(10, 36);
             this.SidePanel.TabIndex = 10;
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(40, 609);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 11;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // panel2
             // 
-            this.panel2.Location = new System.Drawing.Point(186, 0);
+            this.panel2.Location = new System.Drawing.Point(196, 122);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1058, 736);
+            this.panel2.Size = new System.Drawing.Size(1170, 648);
             this.panel2.TabIndex = 11;
             // 
             // tableAdapterManager1
@@ -258,12 +290,127 @@
             this.tableAdapterManager1.personelTableAdapter = null;
             this.tableAdapterManager1.UpdateOrder = Teknik_Takip.Teknik_TakipDbDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.button7);
+            this.panel3.Controls.Add(this.button6);
+            this.panel3.Controls.Add(this.button4);
+            this.panel3.Controls.Add(this.button2);
+            this.panel3.Controls.Add(this.button1);
+            this.panel3.Controls.Add(this.Malzeme_Silme_Ekrani_Gidis);
+            this.panel3.Controls.Add(this.Stok_Sorgulama_Ekrani_Gidis_Buton);
+            this.panel3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.panel3.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.panel3.Location = new System.Drawing.Point(196, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1170, 133);
+            this.panel3.TabIndex = 13;
+            this.panel3.Visible = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Teal;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.ForeColor = System.Drawing.SystemColors.Control;
+            this.button4.Location = new System.Drawing.Point(444, 46);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(197, 28);
+            this.button4.TabIndex = 13;
+            this.button4.Text = "Kart Teslim Ekranı";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.SkyBlue;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(875, 46);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(212, 28);
+            this.button2.TabIndex = 12;
+            this.button2.Text = "Tümünü Listele";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_2);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.SkyBlue;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(597, 46);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(212, 28);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Malzeme Güncelleme";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_2);
+            // 
+            // Malzeme_Silme_Ekrani_Gidis
+            // 
+            this.Malzeme_Silme_Ekrani_Gidis.BackColor = System.Drawing.Color.SkyBlue;
+            this.Malzeme_Silme_Ekrani_Gidis.FlatAppearance.BorderSize = 0;
+            this.Malzeme_Silme_Ekrani_Gidis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Malzeme_Silme_Ekrani_Gidis.Location = new System.Drawing.Point(319, 46);
+            this.Malzeme_Silme_Ekrani_Gidis.Margin = new System.Windows.Forms.Padding(4);
+            this.Malzeme_Silme_Ekrani_Gidis.Name = "Malzeme_Silme_Ekrani_Gidis";
+            this.Malzeme_Silme_Ekrani_Gidis.Size = new System.Drawing.Size(212, 28);
+            this.Malzeme_Silme_Ekrani_Gidis.TabIndex = 10;
+            this.Malzeme_Silme_Ekrani_Gidis.Text = "Malzeme Silme";
+            this.Malzeme_Silme_Ekrani_Gidis.UseVisualStyleBackColor = false;
+            this.Malzeme_Silme_Ekrani_Gidis.Click += new System.EventHandler(this.Malzeme_Silme_Ekrani_Gidis_Click);
+            // 
+            // Stok_Sorgulama_Ekrani_Gidis_Buton
+            // 
+            this.Stok_Sorgulama_Ekrani_Gidis_Buton.BackColor = System.Drawing.Color.SkyBlue;
+            this.Stok_Sorgulama_Ekrani_Gidis_Buton.FlatAppearance.BorderSize = 0;
+            this.Stok_Sorgulama_Ekrani_Gidis_Buton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Stok_Sorgulama_Ekrani_Gidis_Buton.Location = new System.Drawing.Point(41, 46);
+            this.Stok_Sorgulama_Ekrani_Gidis_Buton.Margin = new System.Windows.Forms.Padding(4);
+            this.Stok_Sorgulama_Ekrani_Gidis_Buton.Name = "Stok_Sorgulama_Ekrani_Gidis_Buton";
+            this.Stok_Sorgulama_Ekrani_Gidis_Buton.Size = new System.Drawing.Size(212, 28);
+            this.Stok_Sorgulama_Ekrani_Gidis_Buton.TabIndex = 9;
+            this.Stok_Sorgulama_Ekrani_Gidis_Buton.Text = "Malzeme Stok Sorgulama";
+            this.Stok_Sorgulama_Ekrani_Gidis_Buton.UseVisualStyleBackColor = false;
+            this.Stok_Sorgulama_Ekrani_Gidis_Buton.Click += new System.EventHandler(this.Stok_Sorgulama_Ekrani_Gidis_Buton_Click);
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Teal;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.ForeColor = System.Drawing.SystemColors.Control;
+            this.button6.Location = new System.Drawing.Point(444, 47);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(197, 28);
+            this.button6.TabIndex = 14;
+            this.button6.Text = "Kulaklık Teslim Al";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.Teal;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.ForeColor = System.Drawing.SystemColors.Control;
+            this.button7.Location = new System.Drawing.Point(444, 47);
+            this.button7.Margin = new System.Windows.Forms.Padding(4);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(197, 28);
+            this.button7.TabIndex = 15;
+            this.button7.Text = "Kart Teslim Al";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Secim_Ekrani
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Teknik_Takip.Properties.Resources._21;
-            this.ClientSize = new System.Drawing.Size(1242, 736);
+            this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -276,6 +423,7 @@
             this.Load += new System.EventHandler(this.Secim_Ekrani_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -294,8 +442,17 @@
         private System.Windows.Forms.Button kart_zimmet_buton;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel SidePanel;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button4;
         private Teknik_TakipDbDataSetTableAdapters.TableAdapterManager tableAdapterManager1;
+        protected internal System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Malzeme_Silme_Ekrani_Gidis;
+        private System.Windows.Forms.Button Stok_Sorgulama_Ekrani_Gidis_Buton;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
     }
 }

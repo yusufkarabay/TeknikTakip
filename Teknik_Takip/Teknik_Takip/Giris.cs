@@ -41,6 +41,8 @@ namespace Teknik_Takip
             InitializeComponent();
         }
 
+        
+
         public static string kullaniciadi;
         SqlCommand komut;
         SqlDataAdapter da;
@@ -112,6 +114,7 @@ namespace Teknik_Takip
         private void Giris_Load(object sender, EventArgs e)
         {
             timer1.Start();
+           
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -203,10 +206,39 @@ namespace Teknik_Takip
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+         
+
             su myForm = new su();
             this.Hide();
             myForm.ShowDialog();
             this.Close();
+            
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void timersu1_Tick(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void timersu2_Tick(object sender, EventArgs e)
+        {
+
         }
     }
 }

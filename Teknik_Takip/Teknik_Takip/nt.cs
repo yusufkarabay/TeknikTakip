@@ -99,10 +99,10 @@ namespace Teknik_Takip
                 textBox1.Focus();
                 return;
             }
-            string sorgu = "Insert into N_Yapilacak (Kullanici_Adi,Yapilacak_Note) values (@Kullanici_Adi,@Yapilacak_Note)";
+            string sorgu = "Insert into N_Yapilacak (Kullanici_Adii,Yapilacak_Note) values (@Kullanici_Adii,@Yapilacak_Note)";
             komut = new SqlCommand(sorgu, baglanti);
 
-            komut.Parameters.AddWithValue("@Kullanici_Adi", Program.Ad_Soyad);
+            komut.Parameters.AddWithValue("@Kullanici_Adii", Program.Ad_Soyad);
             komut.Parameters.AddWithValue("@Yapilacak_Note", textBox1.Text);
 
             baglanti.Open();
@@ -117,7 +117,7 @@ namespace Teknik_Takip
         {
             dtbl_yapilacaklar.Clear();
             baglanti.Open();
-            da = new SqlDataAdapter("Select * from N_Yapilacak where Note_Zamani like'" + dateTimePicker2.Value.ToString("yyyy-MM-dd") + "' ", baglanti);
+            da = new SqlDataAdapter("Select * from N_Yapilacak where Note_Zamanii like'" + dateTimePicker2.Value.ToString("yyyy-MM-dd") + "' ", baglanti);
 
             da.Fill(dtbl_yapilacaklar);
             dataGridView2.DataSource = dtbl_yapilacaklar;
@@ -160,6 +160,11 @@ namespace Teknik_Takip
         private void dataGridView2_CellEnter(object sender, DataGridViewCellEventArgs e)
         {
             textBox3.Text = dataGridView2.CurrentRow.Cells[1].Value.ToString();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

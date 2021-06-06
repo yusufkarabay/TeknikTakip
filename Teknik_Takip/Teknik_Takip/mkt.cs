@@ -49,10 +49,10 @@ namespace Teknik_Takip
 
         private void button2_Click(object sender, EventArgs e)
         {
-            kte myForm = new kte();
+          /*  kte myForm = new kte();
             this.Hide();
             myForm.ShowDialog();
-            this.Close();
+            this.Close();*/
         }
 
         bool durum;

@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mg));
-            this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
@@ -47,44 +46,44 @@
             this.label7 = new System.Windows.Forms.Label();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.Malzeme_Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Malzeme_adi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Malzeme_Miktari = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Olusturulma_Zamani = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Olusturan_Personel = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(12, 459);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Geri Dön";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Location = new System.Drawing.Point(10, 119);
+            this.label4.Location = new System.Drawing.Point(52, 147);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 13);
+            this.label4.Size = new System.Drawing.Size(116, 16);
             this.label4.TabIndex = 6;
             this.label4.Text = "Malzeme Miktarı";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(96, 116);
+            this.textBox3.Location = new System.Drawing.Point(169, 141);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(198, 20);
+            this.textBox3.Size = new System.Drawing.Size(263, 23);
             this.textBox3.TabIndex = 2;
             this.textBox3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox3_KeyDown);
             this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.LimeGreen;
-            this.button2.Location = new System.Drawing.Point(332, 86);
+            this.button2.BackColor = System.Drawing.Color.IndianRed;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.SystemColors.Control;
+            this.button2.Location = new System.Drawing.Point(248, 176);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 4;
             this.button2.Text = "Güncelle";
             this.button2.UseVisualStyleBackColor = false;
@@ -92,10 +91,13 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button3.Location = new System.Drawing.Point(872, 69);
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(162)))), ((int)(((byte)(214)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.ForeColor = System.Drawing.SystemColors.Control;
+            this.button3.Location = new System.Drawing.Point(755, 176);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(100, 28);
             this.button3.TabIndex = 3;
             this.button3.Text = "Getir";
             this.button3.UseVisualStyleBackColor = false;
@@ -109,10 +111,17 @@
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(107, 167);
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Malzeme_Id,
+            this.Malzeme_adi,
+            this.Malzeme_Miktari,
+            this.Olusturulma_Zamani,
+            this.Olusturan_Personel});
+            this.dataGridView1.Location = new System.Drawing.Point(54, 212);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(804, 237);
+            this.dataGridView1.Size = new System.Drawing.Size(1046, 375);
             this.dataGridView1.TabIndex = 10;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellEnter);
@@ -121,69 +130,77 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Location = new System.Drawing.Point(13, 96);
+            this.label5.Location = new System.Drawing.Point(58, 107);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 13);
+            this.label5.Size = new System.Drawing.Size(93, 16);
             this.label5.TabIndex = 11;
             this.label5.Text = "Malzeme Adı";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(96, 89);
+            this.textBox2.Location = new System.Drawing.Point(169, 104);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(198, 20);
+            this.textBox2.Size = new System.Drawing.Size(263, 23);
             this.textBox2.TabIndex = 1;
             this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox2_KeyDown);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(96, 62);
+            this.textBox1.Location = new System.Drawing.Point(169, 67);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(198, 20);
+            this.textBox1.Size = new System.Drawing.Size(263, 23);
             this.textBox1.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(13, 69);
+            this.label3.Location = new System.Drawing.Point(58, 67);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 13);
+            this.label3.Size = new System.Drawing.Size(84, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Malzeme ID";
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(530, 65);
+            this.textBox4.Location = new System.Drawing.Point(669, 67);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(190, 20);
+            this.textBox4.Size = new System.Drawing.Size(252, 23);
             this.textBox4.TabIndex = 12;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(451, 69);
+            this.label6.Location = new System.Drawing.Point(563, 67);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(63, 13);
+            this.label6.Size = new System.Drawing.Size(84, 16);
             this.label6.TabIndex = 13;
             this.label6.Text = "Malzeme ID";
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(530, 95);
+            this.textBox5.Location = new System.Drawing.Point(669, 106);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(190, 20);
+            this.textBox5.Size = new System.Drawing.Size(252, 23);
             this.textBox5.TabIndex = 14;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Location = new System.Drawing.Point(449, 96);
+            this.label7.Location = new System.Drawing.Point(561, 106);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(67, 13);
+            this.label7.Size = new System.Drawing.Size(93, 16);
             this.label7.TabIndex = 15;
             this.label7.Text = "Malzeme Adı";
             // 
@@ -192,9 +209,11 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.BackColor = System.Drawing.Color.Transparent;
             this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(749, 67);
+            this.radioButton1.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.radioButton1.Location = new System.Drawing.Point(961, 67);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(68, 17);
+            this.radioButton1.Size = new System.Drawing.Size(87, 20);
             this.radioButton1.TabIndex = 16;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "ID ile Ara";
@@ -204,19 +223,50 @@
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.BackColor = System.Drawing.Color.Transparent;
-            this.radioButton2.Location = new System.Drawing.Point(749, 98);
+            this.radioButton2.Location = new System.Drawing.Point(961, 106);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(117, 17);
+            this.radioButton2.Size = new System.Drawing.Size(159, 20);
             this.radioButton2.TabIndex = 17;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Malzeme Adı ile Ara";
             this.radioButton2.UseVisualStyleBackColor = false;
             // 
+            // Malzeme_Id
+            // 
+            this.Malzeme_Id.DataPropertyName = "Malzeme_Id";
+            this.Malzeme_Id.HeaderText = "Malzeme ID";
+            this.Malzeme_Id.Name = "Malzeme_Id";
+            // 
+            // Malzeme_adi
+            // 
+            this.Malzeme_adi.DataPropertyName = "Malzeme_adi";
+            this.Malzeme_adi.HeaderText = "Malzeme Adı";
+            this.Malzeme_adi.Name = "Malzeme_adi";
+            // 
+            // Malzeme_Miktari
+            // 
+            this.Malzeme_Miktari.DataPropertyName = "Malzeme_Miktari";
+            this.Malzeme_Miktari.HeaderText = "Malzeme Miktarı";
+            this.Malzeme_Miktari.Name = "Malzeme_Miktari";
+            // 
+            // Olusturulma_Zamani
+            // 
+            this.Olusturulma_Zamani.DataPropertyName = "Olusturulma_Zamani";
+            this.Olusturulma_Zamani.HeaderText = "Kayıt Zamanı";
+            this.Olusturulma_Zamani.Name = "Olusturulma_Zamani";
+            // 
+            // Olusturan_Personel
+            // 
+            this.Olusturan_Personel.DataPropertyName = "Olusturan_Personel";
+            this.Olusturan_Personel.HeaderText = "Kayıt Yapan Personel";
+            this.Olusturan_Personel.Name = "Olusturan_Personel";
+            // 
             // mg
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1042, 697);
+            this.ClientSize = new System.Drawing.Size(1154, 609);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.textBox5);
@@ -230,11 +280,14 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
+            this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "mg";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -248,7 +301,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button button2;
@@ -265,5 +317,10 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Malzeme_Id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Malzeme_adi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Malzeme_Miktari;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Olusturulma_Zamani;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Olusturan_Personel;
     }
 }

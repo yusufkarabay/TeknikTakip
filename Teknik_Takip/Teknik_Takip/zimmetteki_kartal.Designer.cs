@@ -31,32 +31,28 @@ namespace Teknik_Takip
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(zimmetteki_kartal));
-            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Kart_Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Karti_Alan_Personel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Karti_Veren_Personel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Verilis_Tarihi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(27, 428);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 17;
-            this.button3.Text = "Geri Dön";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button2.Location = new System.Drawing.Point(389, 47);
+            this.button2.BackColor = System.Drawing.Color.IndianRed;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.SystemColors.Control;
+            this.button2.Location = new System.Drawing.Point(797, 95);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(132, 23);
+            this.button2.Size = new System.Drawing.Size(176, 28);
             this.button2.TabIndex = 16;
             this.button2.Text = "Verilen Kartları Sorgula";
             this.button2.UseVisualStyleBackColor = false;
@@ -64,10 +60,13 @@ namespace Teknik_Takip
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.IndianRed;
-            this.button1.Location = new System.Drawing.Point(253, 47);
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(162)))), ((int)(((byte)(214)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.SystemColors.Control;
+            this.button1.Location = new System.Drawing.Point(477, 91);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 14;
             this.button1.Text = "Teslim Al";
             this.button1.UseVisualStyleBackColor = false;
@@ -75,19 +74,23 @@ namespace Teknik_Takip
             // 
             // comboBox1
             // 
+            this.comboBox1.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(99, 49);
+            this.comboBox1.Location = new System.Drawing.Point(285, 95);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(160, 24);
             this.comboBox1.TabIndex = 12;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(26, 57);
+            this.label3.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.label3.Location = new System.Drawing.Point(174, 103);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 13);
+            this.label3.Size = new System.Drawing.Size(79, 16);
             this.label3.TabIndex = 15;
             this.label3.Text = "Kart Sahibi";
             // 
@@ -99,24 +102,56 @@ namespace Teknik_Takip
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Window;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Kart_Id,
+            this.Karti_Alan_Personel,
+            this.Karti_Veren_Personel,
+            this.Verilis_Tarihi});
             this.dataGridView1.GridColor = System.Drawing.SystemColors.Window;
-            this.dataGridView1.Location = new System.Drawing.Point(26, 144);
+            this.dataGridView1.Location = new System.Drawing.Point(35, 177);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(516, 257);
+            this.dataGridView1.Size = new System.Drawing.Size(939, 394);
             this.dataGridView1.TabIndex = 18;
+            // 
+            // Kart_Id
+            // 
+            this.Kart_Id.DataPropertyName = "Kart_Id";
+            this.Kart_Id.HeaderText = "Kart ID";
+            this.Kart_Id.Name = "Kart_Id";
+            // 
+            // Karti_Alan_Personel
+            // 
+            this.Karti_Alan_Personel.DataPropertyName = "Karti_Alan_Personel";
+            this.Karti_Alan_Personel.HeaderText = "Kartı Alan Personel";
+            this.Karti_Alan_Personel.Name = "Karti_Alan_Personel";
+            // 
+            // Karti_Veren_Personel
+            // 
+            this.Karti_Veren_Personel.DataPropertyName = "Karti_Veren_Personel";
+            this.Karti_Veren_Personel.HeaderText = "Kartı Veren Personel";
+            this.Karti_Veren_Personel.Name = "Karti_Veren_Personel";
+            // 
+            // Verilis_Tarihi
+            // 
+            this.Verilis_Tarihi.DataPropertyName = "Verilis_Tarihi";
+            this.Verilis_Tarihi.HeaderText = "Veriliş Tarihi";
+            this.Verilis_Tarihi.Name = "Verilis_Tarihi";
             // 
             // zimmetteki_kartal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1042, 697);
-            this.Controls.Add(this.button3);
+            this.ClientSize = new System.Drawing.Size(1026, 609);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dataGridView1);
+            this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "zimmetteki_kartal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -129,13 +164,15 @@ namespace Teknik_Takip
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Kart_Id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Karti_Alan_Personel;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Karti_Veren_Personel;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Verilis_Tarihi;
     }
 }

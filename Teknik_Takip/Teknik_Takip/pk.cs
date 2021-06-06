@@ -207,6 +207,187 @@ namespace Teknik_Takip
 
          
         }
+
+        private void textBox1_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            pictureBox2.Image = Properties.Resources.name_blue;
+            panel1.BackColor = Color.FromArgb(39, 162, 214);
+            textBox1.ForeColor = Color.FromArgb(39, 162, 214);
+
+
+
+            pictureBox3.Image = Properties.Resources.user_16;
+            panel2.BackColor = Color.White;
+            textBox2.ForeColor = Color.White;
+
+            pictureBox1.Image = Properties.Resources.user_16;
+            panel3.BackColor = Color.White;
+            textBox3.ForeColor = Color.White;
+
+            pictureBox4.Image = Properties.Resources.user_16;
+            panel4.BackColor = Color.White;
+            textBox4.ForeColor = Color.White;
+
+            pictureBox5.Image = Properties.Resources.lock_16;
+            panel5.BackColor = Color.White;
+            textBox5.ForeColor = Color.White;
+
+            pictureBox6.Image = Properties.Resources.email;
+            panel6.BackColor = Color.White;
+            textBox6.ForeColor = Color.White;
+        }
+
+        private void textBox2_Click(object sender, EventArgs e)
+        {
+            textBox2.Clear();
+            pictureBox2.Image = Properties.Resources.name;
+            panel1.BackColor = Color.White;
+            textBox1.ForeColor = Color.White;
+
+
+
+            pictureBox3.Image = Properties.Resources.userblue;
+            panel2.BackColor = Color.FromArgb(39, 162, 214); 
+            textBox2.ForeColor = Color.FromArgb(39, 162, 214); 
+
+            pictureBox1.Image = Properties.Resources.user_16;
+            panel3.BackColor = Color.White;
+            textBox3.ForeColor = Color.White;
+
+            pictureBox4.Image = Properties.Resources.user_16;
+            panel4.BackColor = Color.White;
+            textBox4.ForeColor = Color.White;
+
+            pictureBox5.Image = Properties.Resources.lock_16;
+            panel5.BackColor = Color.White;
+            textBox5.ForeColor = Color.White;
+
+            pictureBox6.Image = Properties.Resources.email;
+            panel6.BackColor = Color.White;
+            textBox6.ForeColor = Color.White;
+        }
+
+        private void textBox3_Click(object sender, EventArgs e)
+        {
+            textBox3.Clear();
+            pictureBox2.Image = Properties.Resources.name;
+            panel1.BackColor = Color.White;
+            textBox1.ForeColor = Color.White;
+
+
+
+            pictureBox3.Image = Properties.Resources.user_16;
+            panel2.BackColor = Color.White;
+            textBox2.ForeColor = Color.White;
+
+            pictureBox1.Image = Properties.Resources.userblue;
+            panel3.BackColor = Color.FromArgb(39, 162, 214);
+            textBox3.ForeColor = Color.FromArgb(39, 162, 214);
+
+            pictureBox4.Image = Properties.Resources.user_16;
+            panel4.BackColor = Color.White;
+            textBox4.ForeColor = Color.White;
+
+            pictureBox5.Image = Properties.Resources.lock_16;
+            panel5.BackColor = Color.White;
+            textBox5.ForeColor = Color.White;
+
+            pictureBox6.Image = Properties.Resources.email;
+            panel6.BackColor = Color.White;
+            textBox6.ForeColor = Color.White;
+        }
+
+        private void textBox4_Click(object sender, EventArgs e)
+        {
+            textBox4.Clear();
+            pictureBox2.Image = Properties.Resources.name;
+            panel1.BackColor = Color.White;
+            textBox1.ForeColor = Color.White;
+
+
+
+            pictureBox3.Image = Properties.Resources.user_16;
+            panel2.BackColor = Color.White;
+            textBox2.ForeColor = Color.White;
+
+            pictureBox1.Image = Properties.Resources.user_16;
+            panel3.BackColor = Color.White;
+            textBox3.ForeColor = Color.White;
+
+            pictureBox4.Image = Properties.Resources.userblue;
+            panel4.BackColor = Color.FromArgb(39, 162, 214); 
+            textBox4.ForeColor = Color.FromArgb(39, 162, 214); 
+
+            pictureBox5.Image = Properties.Resources.lock_16;
+            panel5.BackColor = Color.White;
+            textBox5.ForeColor = Color.White;
+
+            pictureBox6.Image = Properties.Resources.email;
+            panel6.BackColor = Color.White;
+            textBox6.ForeColor = Color.White;
+        }
+
+        private void textBox5_Click(object sender, EventArgs e)
+        {
+            textBox5.Clear();
+            pictureBox2.Image = Properties.Resources.name;
+            panel1.BackColor = Color.White;
+            textBox1.ForeColor = Color.White;
+
+
+
+            pictureBox3.Image = Properties.Resources.user_16;
+            panel2.BackColor = Color.White;
+            textBox2.ForeColor = Color.White;
+
+            pictureBox1.Image = Properties.Resources.user_16;
+            panel3.BackColor = Color.White;
+            textBox3.ForeColor = Color.White;
+
+            pictureBox4.Image = Properties.Resources.user_16;
+            panel4.BackColor = Color.White;
+            textBox4.ForeColor = Color.White;
+
+            pictureBox5.Image = Properties.Resources.lockblue;
+            panel5.BackColor = Color.FromArgb(39, 162, 214);
+            textBox5.ForeColor = Color.FromArgb(39, 162, 214);
+
+            pictureBox6.Image = Properties.Resources.email;
+            panel6.BackColor = Color.White;
+            textBox6.ForeColor = Color.White;
+
+        }
+
+        private void textBox6_Click(object sender, EventArgs e)
+        {
+            textBox6.Clear();
+            pictureBox2.Image = Properties.Resources.name;
+            panel1.BackColor = Color.White;
+            textBox1.ForeColor = Color.White;
+
+
+
+            pictureBox3.Image = Properties.Resources.user_16;
+            panel2.BackColor = Color.White;
+            textBox2.ForeColor = Color.White;
+
+            pictureBox1.Image = Properties.Resources.user_16;
+            panel3.BackColor = Color.White;
+            textBox3.ForeColor = Color.White;
+
+            pictureBox4.Image = Properties.Resources.user_16;
+            panel4.BackColor = Color.White;
+            textBox4.ForeColor = Color.White;
+
+            pictureBox5.Image = Properties.Resources.lock_16;
+            panel5.BackColor = Color.White;
+            textBox5.ForeColor = Color.White;
+
+            pictureBox6.Image = Properties.Resources.emailblue;
+            panel6.BackColor = Color.FromArgb(39, 162, 214); 
+            textBox6.ForeColor = Color.FromArgb(39, 162, 214); 
+        }
     }
  
 }

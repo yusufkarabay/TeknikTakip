@@ -18,6 +18,8 @@ namespace Teknik_Takip
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Giris());
         }
+       
+        
 
         public static string Ad_Soyad;
         public static string Personel_Id;

@@ -48,6 +48,41 @@ namespace Teknik_Takip
 
         private void button2_Click(object sender, EventArgs e)
         {
+           
+        }
+
+        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                button2_Click((object)sender, (EventArgs)e);
+            }
+        }
+
+        private void ok_KeyUp(object sender, KeyEventArgs e)
+        {
+
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            su myForm = new su();
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
+        }
+
+        private void textBox1_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            pictureBox2.Image = Properties.Resources.emailblue;
+            panel1.BackColor = Color.FromArgb(39, 162, 214);
+            textBox1.ForeColor = Color.FromArgb(39, 162, 214);
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
             string mail = textBox1.Text.Trim();
             if (mail.Length == 0)
             {
@@ -61,7 +96,8 @@ namespace Teknik_Takip
             komut.Parameters.AddWithValue("@email", textBox1.Text);
 
             SqlDataReader oku = komut.ExecuteReader();
-            if(oku.HasRows == false) {
+            if (oku.HasRows == false)
+            {
                 baglanti.Close();
                 MessageBox.Show("Mail adresinizle eşleşen herhangi bir hesap bulunamadı.");
                 return;
@@ -83,7 +119,8 @@ namespace Teknik_Takip
             komut.Parameters.AddWithValue("@email", textBox1.Text);
 
             int affectedRows = komut.ExecuteNonQuery();
-            if(affectedRows == 0) {
+            if (affectedRows == 0)
+            {
                 baglanti.Close();
                 MessageBox.Show("Onay kodu işlenemedi. Lütfen hizmet sağlayıcınızla iletişime geçin.");
                 return;
@@ -93,9 +130,9 @@ namespace Teknik_Takip
 
             MailMessage ePosta = new MailMessage();
             SmtpClient istemci = new SmtpClient();
-            istemci.Credentials = new System.Net.NetworkCredential("duzce112tekniktakip@gmail.com","duzce112");
+            istemci.Credentials = new System.Net.NetworkCredential("duzce112tekniktakip@gmail.com", "duzce112");
             istemci.Port = 587;
-            istemci.Host= "smtp.gmail.com";
+            istemci.Host = "smtp.gmail.com";
             istemci.EnableSsl = true;
             ePosta.To.Add(textBox1.Text); // kontrol edilecek
             ePosta.From = new MailAddress("duzce112tekniktakip@gmail.com");
@@ -111,20 +148,6 @@ namespace Teknik_Takip
             this.Hide();
             myForm.ShowDialog();
             this.Close();
-        }
-
-        private void textBox1_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                button2_Click((object)sender, (EventArgs)e);
-            }
-        }
-
-        private void ok_KeyUp(object sender, KeyEventArgs e)
-        {
-
-            
         }
     }
 }
